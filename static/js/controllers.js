@@ -13,7 +13,7 @@ ConsoleModule.config(['$routeProvider', '$locationProvider','$sceDelegateProvide
 ConsoleModule.controller('wcontroller', ['$scope', '$http', '$routeParams', '$timeout', '$sce',
     function($scope, $http, $routeParams, $timeout, $sce) {
 
-    $scope.somemessage = "Some weather";
+    $scope.somemessage = "Some weather2";
     $scope.zip1City = "";
     $scope.zip1Weather = "";
 
