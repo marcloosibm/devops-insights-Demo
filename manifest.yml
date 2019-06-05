@@ -2,6 +2,7 @@ applications:
 - disk_quota: 1024M
   name: demodra
   buildpack: sdk-for-nodejs
+  command npm install --save logdna
   command: node app.js
   path: .
   instances: 1
