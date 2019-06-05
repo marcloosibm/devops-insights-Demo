@@ -13,7 +13,7 @@ var options = {
     app: appName,
     env: envName
 };
-var apikey=9b631129805c57c9b36a14471dbd35f2
+apikey= "9b631129805c57c9b36a14471dbd35f2";
 
 // Defaults to false, when true ensures meta object will be searchable
 options.index_meta = true;
