@@ -7,11 +7,9 @@ var EJS = require('ejs');
 
 var Logger = require('logdna');
 var options = {
-    hostname: myHostname,
-    ip: ipAddress,
-    mac: macAddress,
-    app: appName,
-    env: envName
+    hostname: "Devops-Insight-Demo-frankfurt",
+    app: "Devops-Insight-Demo",
+    env: "Prod"
 };
 apikey= "9b631129805c57c9b36a14471dbd35f2";
 
